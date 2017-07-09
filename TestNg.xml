@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="Tests">
+  <test name="Test">
+  <parameter name="browserName" value="Chrome"></parameter>
+  <classes>
+      <class name="com.project.SecondProject.TrackoMainTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test1">
+  <parameter name="browserName" value="IE"></parameter>
+  <classes>
+      <class name="com.project.SecondProject.TrackoMainTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Test2">
+  <parameter name="browserName" value="Firefox"></parameter>
+  <classes>
+      <class name="com.project.SecondProject.TrackoMainTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
